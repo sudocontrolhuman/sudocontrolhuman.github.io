@@ -1,0 +1,42 @@
+html {
+    background-image: url('backround.png');
+    background-color: rgb(175, 175, 175);
+    text-align: center;
+
+}
+
+a {
+    font-size: 200%;
+    font-family: oswald;
+    color: rgb(0, 35, 133);
+    filter: none;
+
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(/fonts/oswald.ttf);
+
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(/fonts/rubik.ttf);
+
+}
+
+h1 {
+    font-family: rubik;
+
+}
+
+h3 {
+    font-family: rubik;
+
+}
+
+hr {
+    color: black;
+    font-size: 150%;
+    
+}
