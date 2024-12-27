@@ -21,7 +21,11 @@ function validatePassword() {
   const encryptedInput = aes.encrypt(userInput, 'my_secret_key');
   if (encryptedInput.toString() === document.getElementById('hidden-input').value) {
     // Grant access to protected content
+    location.href = ".";
   } else {
     // Deny access
+    location.href = "..";
   }
 }
+
+validatePassword()
