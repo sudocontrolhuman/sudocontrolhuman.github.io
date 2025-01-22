@@ -10,6 +10,8 @@ a {
     font-family: oswald;
     color: rgb(0, 35, 133);
     filter: none;
+    margin: 5px;
+    background-color: blue;
 
 }
 
@@ -39,4 +41,25 @@ hr {
     color: black;
     font-size: 150%;
     
+}
+
+
+
+.button {
+    text-decoration: none;
+    background-color: rgb(69, 81, 148);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.button:hover {
+    color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
