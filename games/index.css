@@ -1,6 +1,6 @@
 html {
     background-image: url('/backround.png');
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -19,12 +19,14 @@ html {
 
 h1 {
     font-family: rubik;
+    text-align: center;
 
 }
 
 
-h2 {
+.title {
     font-family: rubik;
+    text-align: center;
 }
 
 a {
@@ -37,4 +39,48 @@ a {
 @font-face {
     font-family: outfit;
     src: url(/fonts/outfit.ttf);
+}
+
+article {
+    width: 300px;
+    background-color: rgba(58, 58, 58, 0.521);
+    padding: 0 16px 16px 16px;
+    border-radius: 16px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    font-size: 100%;
+    font-family: outfit;
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(0, 22, 148);
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+
+}
+
+article ul {
+
+    margin-bottom: 10px;
+}
+
+article img {
+border-radius: 50px;
+}
+
+.button:hover {
+    color: rgba(112, 112, 112, 0.932);
+}
+
+.description {
+    scale: 110%;
+}
+
+.description p {
+    margin: 10px;
 }
