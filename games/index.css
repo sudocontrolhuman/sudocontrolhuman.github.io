@@ -46,14 +46,14 @@ article {
     background-color: rgba(58, 58, 58, 0.521);
     padding: 0 16px 16px 16px;
     border-radius: 16px;
-    float: left;
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    float: left;
     font-size: 100%;
     font-family: outfit;
+    display: inline-block;
 }
+
 
 article:hover {
     background-color: rgba(24, 24, 24, 0.521);
@@ -87,4 +87,34 @@ border-radius: 50px;
 
 .description p {
     margin: 10px;
+}
+
+.button1 {
+    text-decoration: none;
+    background-color: rgb(255, 36, 101);
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 100%;
+    margin: 4px;
+}
+
+.button1:hover {
+    color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.container1 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
 }
