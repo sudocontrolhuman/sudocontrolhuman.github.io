@@ -1,6 +1,6 @@
 html {
-    background-image: url('/backround.png');
     text-align: left;
+    background-color: rgb(255, 204, 204);
 
 }
 
@@ -53,7 +53,7 @@ article {
     font-family: outfit;
     display: inline-block;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
-    
+
 }
 
 

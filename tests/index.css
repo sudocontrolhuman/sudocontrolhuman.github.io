@@ -1,6 +1,6 @@
 html {
-    background-image: url('/backround.png');
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(255, 204, 204);
+    background-image: url(/backround.png);
     text-align: center;
 
 }

@@ -1,6 +1,6 @@
 html {
-    background-image: url('backround.png');
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(255, 238, 238);
+    background-image: url(backround.png);
     text-align: center;
 
 }
@@ -62,4 +62,17 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.games:hover {
+    transform: rotateY(180deg);
+    background-color: blueviolet;
+    border-radius: 8px;  
+      
+}
+
+
+.games {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
 }
